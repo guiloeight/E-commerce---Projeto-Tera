@@ -8,11 +8,26 @@ body {
     margin: 0 auto;
 }
 
-#logoClara {
-    position:absolute;
+#logoClaraImagen {
+    width: 180px;
+    height: auto;
 
 }
 
+#logoClara {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+
+}
+
+main {
+    margin-bottom: 0em;
+
+}
 
 nav {
     background-color: #ffffff;
@@ -29,17 +44,17 @@ nav ol {
     line-height: 24px;
     list-style: none;
     margin: 0;
-}
+}  
 
-ol li {
-    padding: 0%;
-    position: fixed;
-}   
 .produtosCasacos {
     font-family: 'Playfair Display', serif;   
     display: grid;
-    padding: 1em;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 33% 33% 33%;
+    margin: 0px;
+    padding: 5em;
+    box-sizing: border-box;
+    justify-content: center;
+    margin: 0%;
 
 }
 
