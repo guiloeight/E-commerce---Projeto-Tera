@@ -8,6 +8,12 @@ body {
     margin: 0 auto;
 }
 
+#logoClara {
+    position:absolute;
+
+}
+
+
 nav {
     background-color: #ffffff;
     width: 100%;
@@ -25,8 +31,16 @@ nav ol {
     margin: 0;
 }
 
-nav ol li {
-    padding: 18px;
+ol li {
+    padding: 0%;
+    position: fixed;
+}   
+.produtosCasacos {
+    font-family: 'Playfair Display', serif;   
+    display: grid;
+    padding: 1em;
+    grid-template-columns: 30% 30% 30%;
+
 }
 
 /* MAIN */
@@ -249,3 +263,5 @@ footer div a:hover {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
